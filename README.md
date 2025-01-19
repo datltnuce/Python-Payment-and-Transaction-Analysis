@@ -2,7 +2,7 @@
 
 **[Python] Payment and Transaction Analysis**
 ## I. Introduction
-In this project, I will analyze the status of payments and transactions within the context of an e-wallet. 
+In this project, I will explore the status of payments and transactions within an e-wallet system to gain insights into its performance and user behavior. By analyzing transaction trends, payment statuses, and key metrics, this study aims to identify patterns, detect anomalies, and uncover opportunities for optimization. The findings will provide valuable insights to enhance the efficiency, security, and user experience of the e-wallet platform.
 
 ### Dataset:
 1. payment_report.csv (monthly payment volume of products)
