@@ -4,6 +4,9 @@
 ## I. Introduction
 In this project, I will explore the status of payments and transactions within an e-wallet system to gain insights into its performance and user behavior. By analyzing transaction trends, payment statuses, and key metrics, this study aims to identify patterns, detect anomalies, and uncover opportunities for optimization. The findings will provide valuable insights to enhance the efficiency, security, and user experience of the e-wallet platform.
 
+### Recommendation:
+The purpose of this analysis is to identify products, teams, or categories that are performing well or poorly, as well as to analyze transactions with specific transaction types. Additionally, the focus will be on deeper analysis to detect unusual products or teams, contributions from refund transaction sources, and statistics on the number of transactions, total volume, and the number of senders and receivers.
+
 ### Dataset:
 1. payment_report.csv (monthly payment volume of products)
 2. product.csv (product information)
@@ -130,5 +133,3 @@ transaction_summary = valid_transactions.groupby('transaction_type').agg({
 }).rename(columns={'transaction_id': 'total_transactions'})
 print(transaction_summary)
 ```
-## III. Summary
-The purpose of this analysis is to identify products, teams, or categories that are performing well or poorly, as well as to analyze transactions with specific transaction types. Additionally, the focus will be on deeper analysis to detect unusual products or teams, contributions from refund transaction sources, and statistics on the number of transactions, total volume, and the number of senders and receivers.
